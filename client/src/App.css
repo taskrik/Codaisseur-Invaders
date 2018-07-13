@@ -1,0 +1,103 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+h1 {
+  display: block;
+  position: absolute;
+  z-index: 1;
+  font-size: 20px;
+  color: white;
+
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'PT Mono', serif;
+  color: #ffffff;
+  background-image: url("https://media.giphy.com/media/U3qYN8S0j3bpK/source.gif");
+}
+canvas {
+  display: block;
+  background-color: #000000;
+  margin-left: auto;
+  margin-right: auto;
+}
+.title {
+  top: 20%;
+  color: green;
+  font-size: 80px;
+}
+.pressSpace {
+  top: 35%;
+  font-size: 20px;
+  color: #ffffff;
+}
+.pressEnter {
+  top: 45%;
+  font-size: 26px;
+  color: #ffffff;
+}
+.score {
+  top: 30%;
+  font-size: 40px;
+  color: #ffffff;
+}
+.controls {
+  top: 85%;
+  font-size: 20px;
+  color: #ffffff;
+  animation: blinker 1s linear infinite;
+}
+.centerScreen {
+  text-align: center;
+  display: block;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+
+}
+
+.centerScreen2 {
+  text-align: center;
+  display: block;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+}
+
+.test {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+@keyframes blinker {
+  50% { opacity: 0; }
+}
